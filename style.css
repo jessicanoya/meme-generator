@@ -47,6 +47,15 @@ img {
     height: 100%;
 }
 
+#meme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+}
+
 .container {
     font-size: 50px;
     color: white;
@@ -56,22 +65,22 @@ img {
     height: 50%;
     width: 50%;
     margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .top-text {
     position: absolute;
     text-align: center;
-    top: 12%;
-    left: 50%;
-    margin: -50px 0 0 -50px;
+    font-size: 2.3rem;
+    top: 5%;
 }
 
 .bottom-text {
     position: absolute;
+    text-align: center;
+    font-size: 2.3rem;
     bottom: 5%;
-    left: 50%;
-    margin: -50px 0 0 -50px;
 }
